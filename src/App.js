@@ -1,6 +1,8 @@
+import Header from './components/Header/Header';
+
 function App() {
   return (
-    "Outset App"
+    <Header />
   );
 }
 
