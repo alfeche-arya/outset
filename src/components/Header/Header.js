@@ -20,13 +20,13 @@ class Header extends React.Component {
             </Navbar.Brand>
             <Navbar.Collapse>
                 <Nav className="mr-auto">
-                    <Nav.Link href="/about"> About Us </Nav.Link> 
-                    <Nav.Link href="/contact"> Contact Us </Nav.Link> 
+                    <Nav.Link href="/#/about"> About Us </Nav.Link> 
+                    <Nav.Link href="/#/contact"> Contact Us </Nav.Link> 
                 </Nav>
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
-                <Nav.Link href="/visions">My Vision Boards</Nav.Link>
-                <Navbar.Text> Signed in as: <a href="/login">Alana Alfeche</a> </Navbar.Text>
+                <Nav.Link href="/#/visions">My Vision Boards</Nav.Link>
+                <Navbar.Text> Signed in as: <a href="/#/login">Alana Alfeche</a> </Navbar.Text>
             </Navbar.Collapse>
         </Navbar>
         )
