@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
+import Footer from '../../components/Footer/Footer';
+
 class LandingPage extends React.Component {
     render() {
         return (
@@ -21,7 +23,8 @@ class LandingPage extends React.Component {
                         <Button variant="primary">Create a vision board</Button>
                     </p>
                 </Container>
-                </Jumbotron>   
+                </Jumbotron>
+                <Footer />   
             </>
         );
     }

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Navbar from 'react-bootstrap/Navbar';
-
 class Footer extends React.Component {
     render() {
         return (
-        <Navbar variant="dark" fixed="bottom" className="justify-content-center">
-            <Navbar.Text> Copyright © 2021. Outset App. All rights reserved. </Navbar.Text>
-        </Navbar>
+            <footer style={{position: 'absolute', bottom: '0', width: '100%', height: '60px', lineHeight: '60px', color: 'white', textAlign: 'center'}}>
+                <div>
+                    <span>Copyright © 2021. Outset App. All rights reserved.</span>
+                </div>
+            </footer>
         )
     }
 }
