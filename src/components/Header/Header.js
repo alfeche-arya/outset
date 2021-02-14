@@ -9,7 +9,7 @@ class Header extends React.Component {
     render() {
         return (
         <Navbar variant="dark" style={{marginTop: '10px', fontSize: 'large'}}>
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/outset/#/">
             <img
                 alt=""
                 src={logoUrl}
@@ -20,13 +20,13 @@ class Header extends React.Component {
             </Navbar.Brand>
             <Navbar.Collapse>
                 <Nav className="mr-auto">
-                    <Nav.Link href="/#/about"> About Us </Nav.Link> 
-                    <Nav.Link href="/#/contact"> Contact Us </Nav.Link> 
+                    <Nav.Link href="/outset/#/about"> About Us </Nav.Link> 
+                    <Nav.Link href="/outset/#/contact"> Contact Us </Nav.Link> 
                 </Nav>
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
-                <Nav.Link href="/#/visions">My Vision Boards</Nav.Link>
-                <Navbar.Text> Signed in as: <a href="/#/login">Alana Alfeche</a> </Navbar.Text>
+                <Nav.Link href="/outset/#/visions">My Vision Boards</Nav.Link>
+                <Navbar.Text> Signed in as: <a href="/outset/#/login">Alana Alfeche</a> </Navbar.Text>
             </Navbar.Collapse>
         </Navbar>
         )
