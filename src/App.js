@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import About from './components/About/About';
-import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import LandingPage from './components/LandingPage/LandingPage';
@@ -19,8 +19,8 @@ function App() {
             <Route path="/about">
                 <About />
             </Route>
-            <Route path="/blog">
-                <Blog />
+            <Route path="/contact">
+                <Contact />
             </Route>
             <Route path="/">
                 <LandingPage />

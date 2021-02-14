@@ -21,7 +21,7 @@ class Header extends React.Component {
             <Navbar.Collapse>
                 <Nav className="mr-auto">
                     <Nav.Link href="/about"> About Us </Nav.Link> 
-                    <Nav.Link href="/blog"> Blog </Nav.Link> 
+                    <Nav.Link href="/contact"> Contact Us </Nav.Link> 
                 </Nav>
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
