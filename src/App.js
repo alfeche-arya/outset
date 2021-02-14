@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import About from './components/About/About';
+import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import LandingPage from './components/LandingPage/LandingPage';
@@ -17,6 +18,9 @@ function App() {
         <Switch>
             <Route path="/about">
                 <About />
+            </Route>
+            <Route path="/blog">
+                <Blog />
             </Route>
             <Route path="/">
                 <LandingPage />
