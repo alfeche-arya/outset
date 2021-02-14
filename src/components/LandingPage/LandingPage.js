@@ -10,7 +10,7 @@ class LandingPage extends React.Component {
     render() {
         return (
             <>
-                <Jumbotron fluid style={{marginTop: '10px'}}>
+                <Jumbotron fluid style={{marginTop: '10px', backgroundColor: 'whitesmoke'}}>
                 <Container>
                     <h1>Welcome to Outset</h1>
                     <p>

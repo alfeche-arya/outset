@@ -8,7 +8,7 @@ import logoUrl from './outset_invert_transparent.png';
 class Header extends React.Component {
     render() {
         return (
-        <Navbar variant="dark" style={{marginTop: '10px', fontSize: 'large'}}>
+        <Navbar variant="dark" style={{marginTop: '10px'}}>
             <Navbar.Brand href="/outset/#/">
             <img
                 alt=""
@@ -16,7 +16,7 @@ class Header extends React.Component {
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
-            /> <b>u t s e t</b>
+            /><span> u t s e t</span>
             </Navbar.Brand>
             <Navbar.Collapse>
                 <Nav className="mr-auto">
