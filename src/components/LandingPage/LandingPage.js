@@ -4,15 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
-
 class LandingPage extends React.Component {
     render() {
         return (
             <>
-                <Header />
-                <Jumbotron fluid>
+                <Jumbotron fluid style={{marginTop: '10px'}}>
                 <Container>
                     <h1>Welcome to Outset</h1>
                     <p>
@@ -26,7 +22,6 @@ class LandingPage extends React.Component {
                     </p>
                 </Container>
                 </Jumbotron>   
-                <Footer /> 
             </>
         );
     }
