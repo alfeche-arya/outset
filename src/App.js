@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import LandingPage from './components/LandingPage/LandingPage';
+import Visions from './components/Visions/Visions';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/contact">
                 <Contact />
+            </Route>
+            <Route path="/visions">
+                <Visions />
             </Route>
             <Route path="/">
                 <LandingPage />
