@@ -6,14 +6,10 @@ import { Container } from 'react-bootstrap';
 class Visions extends React.Component {
     render() {
         return (
-            <Container style={{marginTop: '10px'}}>
-            <Card style={{borderRadius: '0', border: '0'}}>
+            <Container style={{margin: '80px auto', width: '50em'}}>
+            <Card>
                 <Card.Body>
-                <Card.Title>Visual Board #1</Card.Title>
-                {/* <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                </Card.Text> */}
+                <Card.Title>Vision Board #1</Card.Title>
                 <form>
                     <div class="form-group">
                         <input class="form-control" placeholder="Win the olympics" readOnly/>
@@ -34,7 +30,7 @@ class Visions extends React.Component {
                 </form>        
 
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer style={{backgroundColor: "white"}}>
                 <small className="text-muted">Last updated 3 mins ago</small>
                 </Card.Footer>
             </Card>
