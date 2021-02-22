@@ -9,14 +9,13 @@ class Header extends React.Component {
     render() {
         return (
         <Navbar variant="light" style={{boxShadow: "0 2px 4px rgb(0 0 0 / 10%)"}}>
-            <img
-                alt=""
-                src={logoUrl}
-                width="30"
-                height="30"
-            />
-            <Navbar.Brand href="/outset/#/" style={{marginLeft: "2px", marginRight: "20px"}}>
-                <b>utset</b>
+            <Navbar.Brand href="/outset/#/">
+                <img
+                    alt=""
+                    src={logoUrl}
+                    width="40"
+                    height="40"
+                />
             </Navbar.Brand>
             <Navbar.Collapse>
                 <Nav className="mr-auto">
