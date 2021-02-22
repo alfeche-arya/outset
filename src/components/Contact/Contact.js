@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import { Container } from 'react-bootstrap';
+import { Container } from "react-bootstrap";
 
 class Contact extends React.Component {
     render() {
         return (
-            <Container style={{margin: '80px auto', width: '50em', backgroundColor: 'whitesmoke'}}>
-                <div style={{padding: '20px 0px 0px 20px'}}>
+            <Container style={{margin: "80px auto", width: "50em", backgroundColor: "whitesmoke"}}>
+                <div style={{padding: "20px 0px 0px 20px"}}>
                     <h4>Don't be shy and say hi! 👋 </h4>
                 </div>
-                <form style={{padding: '20px'}}>
+                <form style={{padding: "20px"}}>
                     <div class="form-group">
                         <label for="subject">Name</label>
                         <input type="email" class="form-control" id="subject"/>

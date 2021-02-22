@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-import logoUrl from './outset.png';
+import logoUrl from "./outset.png";
 
 class Header extends React.Component {
     render() {
