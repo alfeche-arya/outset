@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/outset/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/outset/static/js/main.3859cc32.chunk.js",
+    "main.js.map": "/outset/static/js/main.3859cc32.chunk.js.map",
+    "runtime-main.js": "/outset/static/js/runtime-main.cf668c81.js",
+    "runtime-main.js.map": "/outset/static/js/runtime-main.cf668c81.js.map",
+    "static/js/2.7ae3da3f.chunk.js": "/outset/static/js/2.7ae3da3f.chunk.js",
+    "static/js/2.7ae3da3f.chunk.js.map": "/outset/static/js/2.7ae3da3f.chunk.js.map",
+    "static/js/3.be636bdc.chunk.js": "/outset/static/js/3.be636bdc.chunk.js",
+    "static/js/3.be636bdc.chunk.js.map": "/outset/static/js/3.be636bdc.chunk.js.map",
+    "index.html": "/outset/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/outset/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.7ae3da3f.chunk.js.LICENSE.txt": "/outset/static/js/2.7ae3da3f.chunk.js.LICENSE.txt",
+    "static/media/outset.c4c38e65.png": "/outset/static/media/outset.c4c38e65.png",
+    "static/media/outset.f68df6e2.png": "/outset/static/media/outset.f68df6e2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf668c81.js",
+    "static/js/2.7ae3da3f.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.3859cc32.chunk.js"
+  ]
+}
